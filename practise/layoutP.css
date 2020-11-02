@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   
+}
+.container {
+    max-width: 1100;
+    height: 300px;
+    margin: 20 auto;
+}
+header {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 60px;
+    width: 95%;
+    background-color: turquoise;
+    text-align: center;
+    padding-top: 20px;
+}
+aside {
+    margin-left: 30px;
+    height: 80px;
+    width: 10%;
+    border-style: groove;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    color: blue;
+}
+aside ul {
+    list-style: none;
+}
+aside ul li {
+    background-color: cyan;
+    width: 70px;
+    height: 40px;
+    float: left;
+} 
+aside ul li {
+    visibility: hidden;
+}
+section {
+    height: auto;
+    width: 50%;
+    float: left;
+}
+footer {
+    margin-left: 30px;
+    height: 60px;
+    width: 95%;
+    background-color: turquoise;
+    float: left;
+    padding-top: 20px;
+}
